@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"testbench_func_synth.vhd" \
+"../../../../../forTestTask.srcs/sources_1/new/model.vhd" \
+
+# Do not sort compile order
+nosort
